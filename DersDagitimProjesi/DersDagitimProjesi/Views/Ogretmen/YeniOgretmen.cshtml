@@ -1,0 +1,23 @@
+﻿@model DersDagitimProjesi.Models.Ogretmen
+
+@{
+    ViewBag.Title = "YeniOgretmen";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+
+<br />
+<h1>Yeni Ogretmen Sayfası</h1>
+<br />
+<form class="form-group" method="post">
+    @Html.LabelFor(x => x.OgretmenAd)
+    @Html.TextBoxFor(x => x.OgretmenAd, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.OgretmenSoyad)
+    @Html.TextBoxFor(x => x.OgretmenSoyad, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Ders.DersAd)
+    @Html.DropDownListFor(x => x.Dersid,(List<SelectListItem>)ViewBag.dgr, new {@class= "form-control"})
+    <br />
+     
+    <button class="btn btn-info">Kaydet</button>
+</form>

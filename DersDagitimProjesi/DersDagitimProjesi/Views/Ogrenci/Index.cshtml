@@ -1,0 +1,30 @@
+﻿@using DersDagitimProjesi.Models
+@model IEnumerable<Ogrenci>
+
+@{
+    ViewData["Title"] = "Ogrenci";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+<br />
+<h2>Öğrenci Listesi</h2>
+<div class="col-12 d-flex justify-content-end">
+    <a class="btn btn-success" href="/Ogrenci/YeniOgrenci">Ekle</a> 
+</div>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ad Soyad</th>
+        <th>Sınıf</th>
+        <th>İşlem</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.OgrenciID</td>
+            <td>@x.OgrenciAd @x.OgrenciSoyad</td>
+            <td>@x.Sinif.SinifNo / @x.Sinif.SinifSube</td>
+            <td><a href="/Ogrenci/OgrenciSil/@x.OgrenciID" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <br />
+    <br />
+    <br />
+    <br />
+    <center>
+        <h2>Ders Dağıtım Programı</h2>
+        <div class="outer-box">
+            <div class="login-box">
+                <h3 class="login-text">Giriş</h3>
+                <br />
+                <form action="~/Login/Index/" method="post">
+                    <input type="text" class="name" name="KullaniciAdi" Placeholder="KullaniciAdi" required="" />
+                    <input type="password" class="Sifre" name="Sifre" Placeholder="Sifre" required="" />
+                    <br /><br />
+                    <button class="btn btn-success">Giriş Yap</button>
+                </form>
+                <br />
+                <form action="~/Login/YeniKullanici/" method="get">
+                    <button class="btn btn-primary">Yeni Kullanıcı Oluştur</button>
+                </form>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

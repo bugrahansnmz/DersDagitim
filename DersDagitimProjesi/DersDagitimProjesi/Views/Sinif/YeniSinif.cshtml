@@ -1,0 +1,22 @@
+﻿@model DersDagitimProjesi.Models.Sinif
+
+@{
+    ViewBag.Title = "YeniSinif";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+
+<br />
+<h1>Yeni Sinif Sayfası</h1>
+<br />
+<form class="form-group" method="post">
+    @Html.LabelFor(x => x.SinifNo)
+    @Html.TextBoxFor(x => x.SinifNo, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.SinifSube)
+    @Html.TextBoxFor(x => x.SinifSube, new { @class = "form-control" })
+    <br />
+   
+   
+     
+    <button class="btn btn-info">Kaydet</button>
+</form>

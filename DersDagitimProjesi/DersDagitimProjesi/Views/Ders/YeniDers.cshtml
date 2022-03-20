@@ -1,0 +1,18 @@
+﻿@model DersDagitimProjesi.Models.Ders
+
+@{
+    ViewBag.Title = "YeniDers";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+
+<br />
+<h1>Yeni Ders Sayfası</h1>
+<br />
+<form class="form-group" method="post">
+    @Html.LabelFor(x => x.DersAd)
+    <br />
+    @Html.TextBoxFor(x => x.DersAd, new { @class = "form-control" })
+    <br />
+     
+    <button class="btn btn-info">Kaydet</button>
+</form>

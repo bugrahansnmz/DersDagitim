@@ -1,0 +1,24 @@
+﻿@model DersDagitimProjesi.Models.Admin
+@{
+    Layout = null;
+}
+
+
+<center>
+    <br />
+<h1>Yeni Kullanıcı</h1>
+<br />
+    <form class="form-group" method="post">
+        @Html.Label("Kullanıcı Adı")
+        <br />
+        @Html.TextBoxFor(x => x.KullaniciAdi, new { @class = "form-control" })
+        <br />
+        @Html.Label("Şifre")
+        <br />
+        @Html.TextBoxFor(x => x.Sifre, new { @class = "form-control" })
+        <br />
+        <br />
+
+        <button class="btn btn-info">Kaydet</button>
+    </form>
+</center>

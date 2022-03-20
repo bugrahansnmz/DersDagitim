@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Ders>
+
+@{
+    ViewData["Title"] = "Ders";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+<br />
+<h2>Ders Listesi</h2>
+
+<div class="col-12 d-flex justify-content-end">
+    <a class="btn btn-success" href="/Ders/YeniDers">Ekle</a>
+</div>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ad</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        if (x.DersAd == "Öğle Arası")
+        {
+        }
+        else
+        {
+            <tr>
+                <td>@x.DersID</td>
+                <td>@x.DersAd</td>
+                <td><a href="/Ders/DersSil/@x.DersID" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    }
+</table>

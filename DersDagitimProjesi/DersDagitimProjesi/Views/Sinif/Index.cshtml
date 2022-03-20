@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Sinif>
+
+@{
+    ViewData["Title"]="Sınıf";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+<br />
+<h2>Sınıf Listesi</h2>
+ <div class="col-12 d-flex justify-content-end">
+               <a class="btn btn-success" href="/Sinif/YeniSinif">Ekle</a> 
+          </div>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Sınıf No / Şube</th>
+        <th>Programı Gör</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.SinifID</td>
+            <td>@x.SinifNo / @x.SinifSube</td>
+            <td><a href="/Sinif/SinifDetay/@x.SinifID" class="btn btn-success">Programı Gör</a></td>
+            <td><a href="/Sinif/SinifSil/@x.SinifID" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,33 @@
+﻿@using DersDagitimProjesi.Models
+@model IEnumerable<DersProgram>
+
+@{
+    ViewData["Title"] = "Sınıf";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+
+<br />
+<h2>Sınıf Ders Programı Sayfası</h2>
+<br />
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Sınıf: @ViewBag.d/@ViewBag.d1</li>
+</ol>
+<table class="table table-hover">
+    <tr>
+        <th>Gün</th>
+        <th>Ders</th>
+        <th>Saat</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Gun.GunAdi</td>
+            <td>@x.Ders.DersAd</td>
+            <td>@x.Saat.SaatKac</td>
+        </tr>
+    }
+
+
+
+</table>

@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DersDagitimProjesi
+build_property.RootNamespace = DersDagitimProjesi
+build_property.ProjectDir = C:\Users\B-\source\repos\DersDagitimProjesi\DersDagitimProjesi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\B-\source\repos\DersDagitimProjesi\DersDagitimProjesi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/DersProgram/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1Byb2dyYW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Ders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Ders/YeniDers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xZZW5pRGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/GenelBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZWxCaWxnaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Login/YeniKullanici.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cWWVuaUt1bGxhbmljaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Ogrenci/YeniOgrenci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxZZW5pT2dyZW5jaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Ogretmen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Ogretmen/YeniOgretmen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cWWVuaU9ncmV0bWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/SabitBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FiaXRCaWxnaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Shared/_DersLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZXJzTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Sinif/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Sinif/SinifDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcU2luaWZEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Sinif/YeniSinif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcWWVuaVNpbmlmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B-/source/repos/DersDagitimProjesi/DersDagitimProjesi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vt7p25cxo4

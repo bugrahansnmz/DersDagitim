@@ -1,0 +1,106 @@
+﻿@model DersDagitimProjesi.Models.PartialModel
+@using DersDagitimProjesi.Models
+@{
+    ViewData["Title"] = "Ders";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+<div>
+    <div class="row mt-5">
+        <form class="form-group" method="post">
+            @Html.Label("Müdür Ad Soyad")
+            @Html.TextBoxFor(x => x.Yntc, new { @class = "form-control" })
+            <br />
+            @Html.Label("Okul")
+            @Html.TextBoxFor(x => x.Okl, new { @class = "form-control" })
+            <br />
+
+            <button class="btn btn-info">Kaydet</button>
+        </form>
+    </div>
+      <div class="row mt-5">
+        <div class="col-4">
+            <h4 class="text-center">Okulumuz</h4>
+            <table class="table d-sm-table">
+                <thead>
+                    <tr>
+                        <th>Okul</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Ok)
+                    {
+                        <tr>
+                            <td>@x.OkulAd</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-8">
+            <h4 class="text-center">Müdürümüz</h4>
+            <table class="table d-sm-table">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Ynt)
+                    {
+                        <tr>
+                            <td>@x.YoneticiAdSoyad</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-4">
+            <h4 class="text-center">Öğretmenlerimiz</h4>
+            <table class="table d-sm-table">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                        <th>Branş</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Ogrtmn)
+                    {
+                        <tr>
+                            <td>@x.OgretmenAd @x.OgretmenSoyad</td>
+                            <td>@x.Ders.DersAd</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-8">
+            <h4 class="text-center">Öğrencilerimiz</h4>
+            <table class="table d-sm-table">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                        <th>Sınıf</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Ogr)
+                    {
+                        <tr>
+                            <td>@x.OgrenciAd @x.OgrenciSoyad</td>
+                            <td>@x.Sinif.SinifNo/@x.Sinif.SinifSube</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

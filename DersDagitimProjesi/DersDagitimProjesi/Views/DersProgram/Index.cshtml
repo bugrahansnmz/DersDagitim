@@ -1,0 +1,45 @@
+﻿@using DersDagitimProjesi.Models
+@model IEnumerable<DersProgram>
+@{
+    ViewData["Title"] = "Ders";
+    Layout = "~/Views/Shared/_DersLayout.cshtml";
+}
+
+<br />
+<h2>Ders Programı</h2>
+
+@using (Html.BeginForm("Index", "DersProgram", FormMethod.Get))
+{
+   <div class="col-12 d-flex justify-content-end">
+       <p>
+     Gün Ara:        @Html.TextBox("p") 
+        <input type="submit" value="Ara" />
+        </p>
+</div>
+}
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Gün</th>
+        <th>Sınıf</th>
+        <th>Ders</th>
+        <th>Saat</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var ders in Model)
+    {
+        <tr>
+            <td>@ders.ProgramID</td>
+            <td>@ders.Gun.GunAdi</td>
+            <td>@ders.Sinif.SinifNo/@ders.Sinif.SinifSube</td>
+            <td>@ders.Ders.DersAd</td>
+            <td>@ders.Saat.SaatKac</td>
+            <td><a href="/DersProgram/ProgramSil/@ders.ProgramID" class="btn btn-danger">Sil</a></td>
+
+        </tr>
+    }
+
+
+
+</table>
